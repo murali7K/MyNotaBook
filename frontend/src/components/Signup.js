@@ -32,7 +32,7 @@ const Signup = (props) => {
     //     password,
     //   }),
     // });
-    const response = await fetch("https://inotebook-server-bay.vercel.app/api/auth/createuser", {
+    const response = await fetch("https://my-note-book-lyart.vercel.app/api/auth/createuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
